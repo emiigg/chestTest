@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "chest-test",
+  "version": "1.0-SNAPSHOT",
+  "name": "La Prueba del Cofre",
+  "description": "Prueba del Cofre para Eufonia Studio",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/chest-test/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.emi.chestTest.client.ChestTestClient"
+    ],
+    "main": [
+      "com.emi.chestTest.ChestTest"
+    ]
+  },
+  "mixins": [
+    "chest-test.mixins.json",
+    {
+      "config": "chest-test.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}

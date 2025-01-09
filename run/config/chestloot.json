@@ -1,0 +1,5 @@
+{
+  "default": ["minecraft:chests/simple_dungeon"],
+  "minecraft:plains": ["minecraft:chests/village/village_weaponsmith"],
+  "minecraft:desert": ["minecraft:chests/desert_pyramid"]
+}
