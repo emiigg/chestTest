@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/emi/chestTest/mixin/ChestBlockEntityMixin": {
+      "readNbt": "Lnet/minecraft/class_2595;method_11014(Lnet/minecraft/class_2487;)V",
+      "writeNbt": "Lnet/minecraft/class_2595;method_11007(Lnet/minecraft/class_2487;)V"
+    },
+    "com/emi/chestTest/mixin/PlayerPlaceBlock": {
+      "place(Lnet/minecraft/item/ItemPlacementContext;)Lnet/minecraft/util/ActionResult;": "Lnet/minecraft/class_1747;method_7712(Lnet/minecraft/class_1750;)Lnet/minecraft/class_1269;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/emi/chestTest/mixin/ChestBlockEntityMixin": {
+        "readNbt": "Lnet/minecraft/class_2595;method_11014(Lnet/minecraft/class_2487;)V",
+        "writeNbt": "Lnet/minecraft/class_2595;method_11007(Lnet/minecraft/class_2487;)V"
+      },
+      "com/emi/chestTest/mixin/PlayerPlaceBlock": {
+        "place(Lnet/minecraft/item/ItemPlacementContext;)Lnet/minecraft/util/ActionResult;": "Lnet/minecraft/class_1747;method_7712(Lnet/minecraft/class_1750;)Lnet/minecraft/class_1269;"
+      }
+    }
+  }
+}
